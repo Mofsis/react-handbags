@@ -60,30 +60,30 @@ function App() {
         <footer>
             <Tiles
                 title="THE BRAND"
-                text="loremLorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem facere id impedit iusto, molestias nihil nulla numquam, qui quidem, sint"
                 image=""
-            />
-            <Tiles
-                title=""
-                image={brand}
             >
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, sequi!
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, sequi!
-            </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consectetur cum exercitationem facere nam necessitatibus non repellat saepe ullam voluptatum!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consectetur cum exercitationem facere nam necessitatibus non repellat saepe ullam voluptatum!
+                </p>
             </Tiles>
             <Tiles
                 title=""
-                text=""
+                image={brand}
+            />
+
+            <Tiles
+                title=""
                 image={story}
             />
             <Tiles
                 title="OUR STORY"
-                text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem facere id impedit iusto, molestias nihil nulla numquam, qui quidem, sint suscipit tenetur! Adipisci aspernatur earum laudantium omnis pariatur quidem. Dolor!"
                 image=""
-            />
+            >
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum esse est eveniet explicabo sunt? Commodi eveniet laborum nihil officia veniam. In incidunt inventore iure perspiciatis repellendus, sapiente sequi vero vitae.</p>
+            </Tiles>
         </footer>
       </>
   );
